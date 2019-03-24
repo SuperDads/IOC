@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class Class1
+    public class TestBLL
     {
+        public string Get()
+        {
+            return "test IOC";
+        }
     }
 }
